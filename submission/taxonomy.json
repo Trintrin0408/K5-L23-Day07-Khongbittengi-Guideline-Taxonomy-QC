@@ -1,13 +1,13 @@
 {
-  "version": "v0",
+  "version": "v1.0",
   "ignore_class": "ignore_region",
   "classes": [
-    {"name": "car", "definition": "Ô tô con, SUV."},
-    {"name": "truck", "definition": "Xe tải, xe có thùng hàng riêng."},
-    {"name": "van", "definition": "Xe thùng kín cỡ nhỏ."},
-    {"name": "motorcycle", "definition": "Xe máy, mô tô."},
-    {"name": "person", "definition": "Người đi bộ hoặc người ngồi trên xe."},
-    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): nơi không gán từng vật, bỏ sót ở đây không tính là lỗi."}
+    {"name": "car", "definition": "Xe 4 bánh chở người, thân kín liền, tối đa ~9 chỗ: sedan, hatchback, SUV, wagon, taxi. Pickup là truck (R-06); xe đồ chơi, mô hình, thân xe rỗng không gán (R-08)."},
+    {"name": "truck", "definition": "Xe chủ yếu chở hàng, cabin tách khỏi thùng hàng: xe tải, xe đầu kéo, xe chở ô tô (R-13), pickup kể cả có nắp/mui thùng (R-06). Xe buýt, minibus ngoài taxonomy (R-09)."},
+    {"name": "van", "definition": "Xe 4 bánh thân liền dạng hộp, cabin và khoang sau không tách, mũi ngắn (minivan, Hiace, van chở hàng). SUV là car; minibus/Coaster ngoài taxonomy (R-06, R-09)."},
+    {"name": "motorcycle", "definition": "Xe 2 bánh có động cơ: xe máy, xe tay ga, mô tô; mô tô có sidecar tính một xe. Box bao bánh trước đến bánh/đuôi sau, tay lái, gương, không bao thân trên người lái (R-02). Xe đạp, xích lô, tuk-tuk/xe lam ngoài taxonomy (R-09)."},
+    {"name": "person", "definition": "Người thật nhìn thấy trên ảnh: đi, đứng, ngồi, hoặc lái/ngồi trên xe hở bất kỳ, mỗi người một box (R-02, R-09). Người trong cabin kín không gán (R-14); tượng, ma-nơ-canh, hình in, phản chiếu không gán (R-08)."},
+    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): cụm nhiều vật thuộc taxonomy không vẽ được từng box (quá dày, quá nhỏ < 20 px, quá mờ); bỏ sót ở đây không tính là lỗi (R-07, R-10, R-12). Không dùng cho vật ngoài taxonomy hay vật giả."}
   ],
   "attributes": [
     {"name": "occluded_level", "type": "select", "values": ["0", "1", "2", "3"], "default": "0"},

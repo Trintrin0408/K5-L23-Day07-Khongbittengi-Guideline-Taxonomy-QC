@@ -1,11 +1,17 @@
 # Guideline gán nhãn — v1.0 (thống nhất nhóm) — Khongbittengi
 
-- Phiên bản: **v1.0** (khóa cho lượt gán độc lập Pha 3)
+- Phiên bản: **v1.0 — ĐÃ KHÓA** (git tag `v1.0-locked`, áp dụng cho toàn bộ lượt gán độc lập Pha 3)
 - Ngày: 2026-11-16
 - Nguồn tổng hợp: `guideline_154.md`, `guideline_164.md`, `guideline_169.md`, `guideline_286.md` (bản 286 trùng nội dung với bản 164)
 - Người điều phối / chốt: `164` · Người review bản cuối: `286` · Thành viên: `154`, `169`
 - Loại nhãn: bounding box trên ảnh 2D, CVAT, xuất COCO 1.0. Lớp và thuộc tính giữ đúng `taxonomy.json`; mục `rules` (ngưỡng) **không đổi**.
 
+> 🔒 **ĐÃ KHÓA (2026-11-16) cho toàn bộ lượt gán độc lập Pha 3.** Guideline này và `submission/taxonomy.json` (`version: "v1.0"`) được đánh dấu bằng git tag `v1.0-locked`.
+> - Trong Pha 3 **không ai sửa** hai file này, kể cả sửa chữ. Ai gán cũng dùng đúng bản ở tag `v1.0-locked`.
+> - Ca chưa rõ: tick `can_review` hoặc ghi `image_issues.csv` kèm mã `R-xx`; **không** sửa guideline giữa chừng, không xem nhãn của người khác.
+> - Đề xuất sửa quy tắc gom lại, chỉ áp dụng ở Pha 5 dưới dạng **v1.1** (bảng lịch sử mục 6), do `164` chốt, `286` kiểm.
+> - Cấu hình nhãn CVAT: lấy từ `cvat/labels_generated.json` (sinh bởi `make_cvat_labels.py`). Bản CVAT của lớp cần sửa tay hai chỗ khi dán vào Raw, không đổi nội dung nhãn: thêm `"type": "rectangle"` cho mỗi label, và `can_review` dùng `"values": ["false"]`.
+>
 > Mọi quyết định trong bản này dẫn bằng mã `R-xx`. Khi ghi `can_review`, `image_issues.csv` hay `calibration_decisions.csv`, ghi kèm mã quy tắc.
 
 ---

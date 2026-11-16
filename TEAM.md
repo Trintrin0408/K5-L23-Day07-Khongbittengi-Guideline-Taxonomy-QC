@@ -1,15 +1,17 @@
 # Thông tin nhóm
 
+# Thông tin nhóm
+
 - Tên nhóm: Khongbittengi
 - Mã thành viên (ba chữ số):
-  - `164`
-  - `169`
-  - `286`
-  - `154`
+  - Vũ Tuyết Trinh — `164`
+  - Nguyễn Minh Hiếu — `169`
+  - Dương Quốc Anh — `286`
+  - Hà Tiến Trịnh — `154`
 - Người điều phối:  `164`
 - Người review bản cuối:  `286`
 - Commit chốt bài (điền ở kênh nộp sau khi commit):
-
+- 
 ## Kết quả tóm tắt (điền cuối bài)
 
 - Lượt gán hoàn tất / được giao: 80/80 lượt trên 40 ảnh.

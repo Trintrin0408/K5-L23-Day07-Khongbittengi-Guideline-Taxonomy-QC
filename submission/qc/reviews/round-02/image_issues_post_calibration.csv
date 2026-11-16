@@ -1,0 +1,5 @@
+image,region,rule_id,source,note
+img_012.jpg,"[144,262,62,26] px (x,y,w,h)",R-16,C225 và cờ trong bản 286,Mảnh thùng sau SUV không nhận ra lớp. Đã loại ở calibration. Chưa có xác nhận trực tiếp trong nhật ký ca.
+img_013.jpg,"[509,404.5,18,28] px (x,y,w,h)",R-12,"C234, xác nhận của reviewer 286",Vùng tối giữa lá cờ không đủ nhận ra người. Đã loại theo kết luận đã ghi.
+img_033.jpg,"[633,0,327,640] px (x,y,w,h)",R-16,"C522, xác nhận của reviewer 286",Gương và cửa trong lớp kính chưa đủ nhận dạng van. Đã loại theo kết luận đã ghi.
+img_040.jpg,"Gương xe ở mép dưới, phía tiền cảnh",R-16,Guideline v1.1 mục 5,Guideline ghi trường hợp chỉ thấy gương và không vẽ box. Đây là ghi nhận trong hậu kiểm.

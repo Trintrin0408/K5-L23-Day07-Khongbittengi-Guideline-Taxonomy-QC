@@ -1,0 +1,1 @@
+{"kind": "editorial", "summary": "v1.1 giữ nguyên quy tắc R-01..R-18, lớp, thuộc tính và ngưỡng của v1.0; chỉ thêm ví dụ và làm rõ câu chữ (occluded_level trong đám đông, cách kiểm truncated, một vật một box, R-10 tách được ranh giới, R-08/R-09 ví dụ mới) và đính chính bảng ca khó img_008, img_010, img_022, img_023. Mọi quyết định calibration áp quy tắc đã có, phạm vi theo ảnh."}

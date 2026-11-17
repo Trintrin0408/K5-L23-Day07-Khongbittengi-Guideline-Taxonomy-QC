@@ -1,0 +1,3 @@
+# Script QC bam SHA-256 tren byte goc cua file: giu nguyen byte, khong doi xuong dong khi checkout.
+submission/** -text
+data/ATTRIBUTION.csv -text

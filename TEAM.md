@@ -10,7 +10,7 @@
   - Hà Tiến Trịnh — `154`
 - Người điều phối:  `164`
 - Người review bản cuối:  `286`
-- Commit chốt bài (điền ở kênh nộp sau khi commit):LMS
+- Commit chốt bài (điền ở kênh nộp sau khi commit): `8954577`
 - 
 ## Kết quả tóm tắt (điền cuối bài)
 
